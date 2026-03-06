@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-24T04:47:34 EET" name="Default suite" finished-at="2026-02-24T04:47:49 EET" duration-ms="15017">
+    <groups>
+    </groups>
+    <test started-at="2026-02-24T04:47:34 EET" name="Default test" finished-at="2026-02-24T04:47:49 EET" duration-ms="15017">
+      <class name="Testing">
+        <test-method is-config="true" signature="mysetup()[pri:0, instance:Testing@615091b8]" started-at="2026-02-24T04:47:34 EET" name="mysetup" finished-at="2026-02-24T04:47:37 EET" duration-ms="2844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mysetup -->
+        <test-method signature="login()[pri:1, instance:Testing@615091b8]" started-at="2026-02-24T04:47:37 EET" name="login" finished-at="2026-02-24T04:47:38 EET" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="AddAllItemsToCart()[pri:2, instance:Testing@615091b8]" started-at="2026-02-24T04:47:38 EET" name="AddAllItemsToCart" finished-at="2026-02-24T04:47:48 EET" duration-ms="10600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddAllItemsToCart -->
+        <test-method signature="RemoveAllItemsFromCart()[pri:3, instance:Testing@615091b8]" started-at="2026-02-24T04:47:48 EET" name="RemoveAllItemsFromCart" finished-at="2026-02-24T04:47:49 EET" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveAllItemsFromCart -->
+        <test-method is-config="true" signature="AfterTestingDone()[pri:0, instance:Testing@615091b8]" started-at="2026-02-24T04:47:49 EET" name="AfterTestingDone" finished-at="2026-02-24T04:47:49 EET" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTestingDone -->
+      </class> <!-- Testing -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
